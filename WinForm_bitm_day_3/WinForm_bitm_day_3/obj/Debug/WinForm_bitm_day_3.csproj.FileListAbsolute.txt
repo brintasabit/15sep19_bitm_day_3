@@ -1,0 +1,10 @@
+D:\SEIP_258048\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\bin\Debug\WinForm_bitm_day_3.exe.config
+D:\SEIP_258048\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\bin\Debug\WinForm_bitm_day_3.exe
+D:\SEIP_258048\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\bin\Debug\WinForm_bitm_day_3.pdb
+D:\SEIP_258048\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\obj\Debug\WinForm_bitm_day_3.csprojAssemblyReference.cache
+D:\SEIP_258048\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\obj\Debug\WinForm_bitm_day_3.Form1.resources
+D:\SEIP_258048\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\obj\Debug\WinForm_bitm_day_3.Properties.Resources.resources
+D:\SEIP_258048\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\obj\Debug\WinForm_bitm_day_3.csproj.GenerateResource.cache
+D:\SEIP_258048\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\obj\Debug\WinForm_bitm_day_3.csproj.CoreCompileInputs.cache
+D:\SEIP_258048\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\obj\Debug\WinForm_bitm_day_3.exe
+D:\SEIP_258048\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\obj\Debug\WinForm_bitm_day_3.pdb
