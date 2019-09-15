@@ -77,9 +77,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(53, 142);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(196, 20);
+            this.label2.Size = new System.Drawing.Size(117, 20);
             this.label2.TabIndex = 2;
-            this.label2.Text = "How Much Array Elements";
+            this.label2.Text = "Array Elements";
             // 
             // addButton
             // 

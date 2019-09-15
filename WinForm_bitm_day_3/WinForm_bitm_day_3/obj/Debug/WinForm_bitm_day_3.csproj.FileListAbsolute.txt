@@ -18,3 +18,13 @@ D:\BITM\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\obj\Debug\WinFo
 D:\BITM\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\obj\Debug\WinForm_bitm_day_3.csproj.CoreCompileInputs.cache
 D:\BITM\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\obj\Debug\WinForm_bitm_day_3.exe
 D:\BITM\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\obj\Debug\WinForm_bitm_day_3.pdb
+D:\BITM\Git\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\bin\Debug\WinForm_bitm_day_3.exe.config
+D:\BITM\Git\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\bin\Debug\WinForm_bitm_day_3.exe
+D:\BITM\Git\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\bin\Debug\WinForm_bitm_day_3.pdb
+D:\BITM\Git\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\obj\Debug\WinForm_bitm_day_3.csprojAssemblyReference.cache
+D:\BITM\Git\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\obj\Debug\WinForm_bitm_day_3.Form1.resources
+D:\BITM\Git\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\obj\Debug\WinForm_bitm_day_3.Properties.Resources.resources
+D:\BITM\Git\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\obj\Debug\WinForm_bitm_day_3.csproj.GenerateResource.cache
+D:\BITM\Git\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\obj\Debug\WinForm_bitm_day_3.csproj.CoreCompileInputs.cache
+D:\BITM\Git\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\obj\Debug\WinForm_bitm_day_3.exe
+D:\BITM\Git\15sep19_bitm_day_3\WinForm_bitm_day_3\WinForm_bitm_day_3\obj\Debug\WinForm_bitm_day_3.pdb

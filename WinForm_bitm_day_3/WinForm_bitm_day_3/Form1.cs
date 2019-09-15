@@ -14,7 +14,9 @@ namespace WinForm_bitm_day_3
     {
         const int size = 3;
         int[] array = new int[size];
+        int[] array2 = new int[size];
         int index = 0;
+        int sum = 0;
         
         public Form1()
         {
@@ -39,57 +41,32 @@ namespace WinForm_bitm_day_3
             }
             MessageBox.Show(showInfo);*/
 
-            /* int[] number = new int[10];
-             number[0] = 1;
-             number[1] = 1;
-             number[2] = 2;
-             number[3] = 3;
-             number[4] = 4;
-             number[5] = 5;
-             number[6] = 6;
-             number[7] = 7;
-             number[8] = 8;
-             number[9] = 9;
-             // number[0] = 1;
-             string showNumber = "";
-             for (int i=0;i<10;i++)
-             {
-                 showNumber += (+number[i]);
-               // Array.Reverse(number);
-             }
 
-             MessageBox.Show(showNumber);
             // MessageBox.Show(Array.Reverse(number));
 
-     */
 
-            // int[] number = new int[100];
-            /*number[0] = 2;
-            number[1] = 5;
-            number[2] = 7;*/
-            /*string array = inputTextBox.Text;
-            int[] number = Convert.ToInt32(inputTextBox.Text);
-            for (int i = 0; i < n; i++)
-            {
-                showNumber += (+number[i]);
-                // Array.Reverse(number);
-            }
-            MessageBox.Show(showNumber);*/
 
+
+            string showNumber2 = " ";
             string showNumber = " ";
             for (int i = 0; i < size; i++)
             {
 
                 showNumber += array[i];
-
+                array[i] += array2[i];
+                showNumber2 += array2[i];
+                sum += array[i];
+               
+                
             }
+            
+            
+            int q = Convert.ToInt32(sum);
 
-            MessageBox.Show("\n"+showNumber+"\n");
-            for (int j = size; j > size-1; j--)
-            {
-                showNumber += array[j];
-            }
-            MessageBox.Show("\n" + showNumber + "\n");
+            MessageBox.Show("array " + showNumber + "\n");
+            MessageBox.Show("array2 " + showNumber2 + "\n");
+            MessageBox.Show(""+q);
+            inputArrayTextBox.Text = "";
 
 
 
@@ -111,12 +88,7 @@ namespace WinForm_bitm_day_3
                 index++;
                 inputArrayTextBox.Text = "";
             }
-            else
-            {
-                array[index] = Convert.ToInt32(inputArrayTextBox.Text);
-                index--;
-                inputArrayTextBox.Text = "";
-            }
+            
             //int size= Convert.ToInt32(inputArrayTextBox.Text);
             //MessageBox.Show("Array Size " +size );
 
