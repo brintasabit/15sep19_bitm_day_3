@@ -28,55 +28,81 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.showButton = new System.Windows.Forms.Button();
-            this.inputTextBox = new System.Windows.Forms.TextBox();
+            this.inputArrayTextBox = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.Display = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.addButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // showButton
+            // inputArrayTextBox
             // 
-            this.showButton.Location = new System.Drawing.Point(332, 92);
-            this.showButton.Name = "showButton";
-            this.showButton.Size = new System.Drawing.Size(75, 23);
-            this.showButton.TabIndex = 0;
-            this.showButton.Text = "Show";
-            this.showButton.UseVisualStyleBackColor = true;
-            this.showButton.Click += new System.EventHandler(this.showButton_Click);
-            // 
-            // inputTextBox
-            // 
-            this.inputTextBox.Location = new System.Drawing.Point(120, 94);
-            this.inputTextBox.Name = "inputTextBox";
-            this.inputTextBox.Size = new System.Drawing.Size(173, 20);
-            this.inputTextBox.TabIndex = 1;
+            this.inputArrayTextBox.Location = new System.Drawing.Point(267, 136);
+            this.inputArrayTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.inputArrayTextBox.Name = "inputArrayTextBox";
+            this.inputArrayTextBox.Size = new System.Drawing.Size(258, 26);
+            this.inputArrayTextBox.TabIndex = 1;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(120, 144);
+            this.textBox1.Location = new System.Drawing.Point(277, 225);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(173, 20);
+            this.textBox1.Size = new System.Drawing.Size(258, 26);
             this.textBox1.TabIndex = 1;
             // 
             // Display
             // 
-            this.Display.Location = new System.Drawing.Point(332, 141);
+            this.Display.Location = new System.Drawing.Point(627, 218);
+            this.Display.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Display.Name = "Display";
-            this.Display.Size = new System.Drawing.Size(75, 23);
+            this.Display.Size = new System.Drawing.Size(112, 35);
             this.Display.TabIndex = 0;
             this.Display.Text = "Show";
             this.Display.UseVisualStyleBackColor = true;
             this.Display.Click += new System.EventHandler(this.showButton_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(71, 228);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(51, 20);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "label1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(53, 142);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(196, 20);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "How Much Array Elements";
+            // 
+            // addButton
+            // 
+            this.addButton.Location = new System.Drawing.Point(627, 136);
+            this.addButton.Name = "addButton";
+            this.addButton.Size = new System.Drawing.Size(112, 37);
+            this.addButton.TabIndex = 3;
+            this.addButton.Text = "Add";
+            this.addButton.UseVisualStyleBackColor = true;
+            this.addButton.Click += new System.EventHandler(this.addButton_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.Controls.Add(this.addButton);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.inputTextBox);
+            this.Controls.Add(this.inputArrayTextBox);
             this.Controls.Add(this.Display);
-            this.Controls.Add(this.showButton);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -85,11 +111,12 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button showButton;
-        private System.Windows.Forms.TextBox inputTextBox;
+        private System.Windows.Forms.TextBox inputArrayTextBox;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button Display;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button addButton;
     }
 }
 
